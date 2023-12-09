@@ -35,7 +35,7 @@ export default function ArtworkCardDetail(props){
     // Use effect
     useEffect(()=>{
       setShowAdded(favouritesList?.includes(props.objectID))
-    }, [favouritesList])
+    }, [favouritesList, props.objectID])
 
     // Adding the function facouritesClicked
 
