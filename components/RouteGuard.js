@@ -29,7 +29,7 @@ export default function RouteGuard(props) {
             router.events.off('routeChangeComplete', authCheck);
         }
 
-    },);
+    },[]);
 
     async function updateAtoms(){
         setFavouritesList(await getFavourites());
