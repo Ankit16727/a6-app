@@ -1,40 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
 
-## Getting Started
+This is a web application having a responsive user interface for searching and viewing data on the publicly available <a href = "https://metmuseum.github.io/"> Metropolitan Museum of Art Collection API </a>. Explore the application using the link : <a href = "https://a6-app-ten.vercel.app/"> API Viewer </a>.
 
-First, run the development server:
+Below are given the details about the different concepts being used to implement the application functionality.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## User Authentication
+The user authentication is implemented by using the <b> JSON Web Tokens (JWT)</b>. For the database, <b> MongoDB </b> is used to store the data about the users who have registered. Only the registered users after logging in have access to view and search the data available on the API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="1440" alt="Register" style = "display: inline-block" src="https://github.com/Ankit16727/a6-app/assets/120432770/b90426e8-b3ee-4fae-9fd5-94e447c708d6">
+<img width="1440" alt="LogIn" style = "display: inline-block" src="https://github.com/Ankit16727/a6-app/assets/120432770/ebc648fc-a955-46d4-b1c3-8083ff2ecc42">
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Viewing Data
+There are 2 types of search available <b> Simple Search </b> and <b> Advanced Search </b>
+ <img width="1440" alt="simplesearch" src="https://github.com/Ankit16727/a6-app/assets/120432770/3646407b-4637-4045-b9c2-7d0937aeb8b7">
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
