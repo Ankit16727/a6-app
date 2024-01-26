@@ -1,6 +1,6 @@
 # Introduction
 
-This is a web application having a responsive user interface for searching and viewing data on the publicly available <a href = "https://metmuseum.github.io/"> Metropolitan Museum of Art Collection API </a>. Explore the application using the link : <a href = "https://a6-app-ten.vercel.app/" target=”_blank”> API Viewer </a>.
+This is a web application having a responsive user interface for searching and viewing data on the publicly available <a href = "https://metmuseum.github.io/"> Metropolitan Museum of Art Collection API </a>. Explore the application using the link : <a href = "https://a6-app-ten.vercel.app/" target= "_blank"> API Viewer </a>.
 
 Below are given the details about the different concepts being used to implement the application functionality.
 
