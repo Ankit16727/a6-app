@@ -23,6 +23,9 @@ There are 2 types of search available :
 
 <img width="1440" alt="Screen Shot 2024-01-26 at 2 49 07 PM" src="https://github.com/Ankit16727/a6-app/assets/120432770/704a2094-d67a-4f99-94b6-13e61f2ba3ca">
 
+<img width="1440" alt="itsdata" src="https://github.com/Ankit16727/a6-app/assets/120432770/1ebeebcb-08f1-483f-b56e-5a789b9e2aeb">
+
+
 
 <img width="1440" alt="dataView2" src="https://github.com/Ankit16727/a6-app/assets/120432770/0eca8b31-9e9d-41ca-b118-5874c94cd3e9">
 
